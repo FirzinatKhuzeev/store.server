@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StoreServer.Common\StoreServer.Common.csproj" />
+    <ProjectReference Include="..\StoreServer.DataAccess\StoreServer.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
